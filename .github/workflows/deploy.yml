@@ -18,5 +18,5 @@ jobs:
             whoami
             mkdir test 
             cd test 
-            git clone git@github.com:TrevorNathan/ci-cd-to-digitalocean-with-github-actions.git
+            touch testfile.html
             echo 'Deployment successful to digital ocean Droplet!'
