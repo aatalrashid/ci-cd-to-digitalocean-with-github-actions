@@ -1,4 +1,6 @@
+# .github/workflows/deploy.yml
 name: Build & Deploy
+
 on:
   push:
     branches: [main]
@@ -18,5 +20,5 @@ jobs:
             whoami
             mkdir test 
             cd test 
-            touch testfile.html
+            git clone git@github.com:TrevorNathan/ci-cd-to-digitalocean-with-github-actions.git
             echo 'Deployment successful to digital ocean Droplet!'
